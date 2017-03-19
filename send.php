@@ -3,18 +3,18 @@
   <head>
     <title>C-PHP intercommunication</title>
   </head>
-  <body>
+ <body>
     <div>
       <h2>Send your message </h2><p style="color:red;">send 'exit' to terminate</p>
       <p>
         Enter your name : <input type="text" id="value"/><input type="button" id="send" value="send" onclick="send()"/>
       </p>
     </div>
-        <p id="status">
-
-        </p>
-    <script src="jQuery/jquery-3.1.1.min.js"></script>
-    <script>
+        
+    <p id="status">       </p>
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script>
 
       function send()
       {
