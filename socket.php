@@ -42,7 +42,8 @@ if( ! socket_recv( $sock , $msg , strlen($msg) , 0))
 }
 echo "<br/>Message received : ".$msg;
 
-
+// close the socket
+socket_close($sock);
 
 
 ?>
