@@ -7,7 +7,7 @@ step 1 ->  compile the c-php.c program<br/>
             
 ![screenshot 18](https://cloud.githubusercontent.com/assets/21128320/24079127/0e1392be-0ca7-11e7-943b-b1e79f84e6be.png)
 
-step 2 -> run browser with '127.0.0.1:5000' to check server responce
+step 2 -> run browser with '127.0.0.1:5000' to check server response
 ![screenshot 19](https://cloud.githubusercontent.com/assets/21128320/24079125/0e09851c-0ca7-11e7-9f3d-8dd0f4ad81b6.png)
 
 step 3 -> start apache server and run 'send.php'
