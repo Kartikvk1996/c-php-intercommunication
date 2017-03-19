@@ -40,7 +40,7 @@ if( ! socket_recv( $sock , $msg , strlen($msg) , 0))
 {
     die("Could not send data\n");
 }
-echo "<br/>Message received : ".$msg;
+echo "<br/>response : ".$msg;
 
 // close the socket
 socket_close($sock);
