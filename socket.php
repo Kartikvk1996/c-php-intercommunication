@@ -20,7 +20,7 @@ if(!($sock = socket_create(AF_INET, SOCK_STREAM, 0)))
 echo "Socket created \n";
 
 //Connect socket to local ip address
-if(!socket_connect($sock , '127.0.0.1' , 5001))
+if(!socket_connect($sock , '127.0.0.1' , 5000))
 {
     die("Could not connect:\n");
 }
