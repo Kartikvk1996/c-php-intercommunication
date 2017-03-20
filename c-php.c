@@ -20,7 +20,7 @@
 int main(int argc , char *argv[])
 {
 
-	if(argc<1)
+	if(argc<2)
 	{
 		printf("Error : pass the argument <address> <port number>\n");
 		exit(EXIT_FAILURE);
